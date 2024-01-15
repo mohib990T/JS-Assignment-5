@@ -8,14 +8,14 @@
 
 // Solution >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-function isEvenOrOdd(num) {
-  if (num % 2 == 0) {
-    console.log("Number is even");
-  } else {
-    console.log("Number is odd");
-  }
-}
-isEvenOrOdd(+prompt("Enter a number : "));
+// function isEvenOrOdd(num) {
+//     if (num % 2 == 0) {
+//         console.log("Number is even");
+//     } else {
+//         console.log("Number is odd");
+//     }
+// }
+// isEvenOrOdd(+prompt("Enter a number : "));
 // ----------------------------------------------------------------------
 
 // Q2. Find the largest of two number
@@ -27,16 +27,16 @@ isEvenOrOdd(+prompt("Enter a number : "));
 
 // solution >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-function findLargest(num1, num2) {
-  if (num1 > num2) {
-    console.log(`${num1} is the largest`);
-  } else if (num1 < num2) {
-    console.log(`${num2} is the largest`);
-  } else {
-    console.log(`${num1} and ${num2} are equal`);
-  }
-}
-findLargest(+prompt("Enter num1 : "), +prompt("Enter num2 : "));
+// function findLargest(num1, num2) {
+//     if (num1 > num2) {
+//         console.log(`${num1} is the largest`);
+//     } else if (num1 < num2) {
+//         console.log(`${num2} is the largest`);
+//     } else {
+//         console.log(`${num1} and ${num2} are equal`);
+//     }
+// }
+// findLargest(+prompt("Enter num1 : "), +prompt("Enter num2 : "));
 // -------------------------------------------------------------------------------
 
 // Q3. Find the largest of three number.
@@ -99,6 +99,7 @@ findLargest(+prompt("Enter num1 : "), +prompt("Enter num2 : "));
 //   +prompt("Enter num2 : "),
 //   prompt("Enter operator : ")
 // );
+// --------------------------------------------------------------------
 
 // Q5.Find check if a year is leap year or not
 // Function `checkLeapYear()` find if the given year is a leap year
@@ -106,6 +107,7 @@ findLargest(+prompt("Enter num1 : "), +prompt("Enter num2 : "));
 // 1. If year is divisble by 4 and not divisble by 100 then
 // print “leap year”. 2. Or if year is divisible by 400 then
 // print “leap year”. 3. Else print “not a leap year”.
+
 
 // Solution >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
